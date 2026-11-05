@@ -1,0 +1,401 @@
+
+body {
+    font-family:'Cascadia Mono';
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+   
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    background-color: rebeccapurple;
+    border-bottom: 1px solid #e5e5e5;
+    z-index: 1000;
+
+}
+
+/* Title*/
+.NavTitle a{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Navigation links */ 
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Nav buttons */
+.nav-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 2px 15px 2px 15px;
+    border: 1px solid rebeccapurple;
+}
+
+/* Button hover */
+.nav-button:hover {
+    background-color: dodgerblue;
+    border: 1px solid darkblue;
+}
+
+.dropdown {
+    position: relative;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    border: 1px solid;
+    border-color: lightgrey;
+    border-radius: 0;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.08);
+    padding:0;
+}
+
+/*Dropdown list container*/
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*Dropdown links*/
+.dropdown-menu a{
+    display: block;
+    text-decoration:none;
+    color: darkslategray;
+    text-align:center;
+ 
+}
+
+/* Show dropdown when hovering */ 
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu li:hover {
+    background-color: dodgerblue;
+    border: 1px solid darkblue;
+}
+
+/* Dropdown hover */ 
+.dropdown-menu a:hover {
+    color: black;
+}
+
+/*footer*/
+.footer {
+    margin-top: auto;
+    border-top: 1px solid #e5e5e5;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #ffffff;
+}
+
+.hero-content {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    text-align: center;
+    background-image: url("../ProjectImages/Particles_06.png");
+    background-size: cover;
+    /* background: linear-gradient( 135deg, #FFFFFF 0%, #F1EAF8 100% );*/
+}
+
+.hero-content-titles::before,
+.hero-content-titles::after {
+    content: "";
+    position: absolute;
+    left: 35%;
+    right: 35%;
+    height: 1px;
+    background-color: black;
+}
+.hero-content-titles{
+    padding: 20px;
+}
+.hero-content-titles h2{
+    color:mediumblue;
+}
+
+.hero-content p {
+    padding: 15px;
+}
+
+.button {
+    background-color: rebeccapurple;
+    color: white;
+    border: 2px solid #111;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #4B2470;
+}
+
+.centre-main-button {
+    width:auto;
+    padding: 14px 20px;
+   
+}
+
+/*main body button positioned on the right*/
+.main-button {
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: 25px;
+    padding: 14px 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+/*main project constainer for all the projects*/
+.projects {
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+/*main project constainer */
+.project-container {
+    width: 100%;
+    color: white;
+}
+
+.project-card {
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    aspect-ratio: 1920/620;
+    width: 100%;
+    transition: height 0.2s ease;
+
+}
+
+.project-container1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../ProjectImages/STUBHeader.jpg");
+    height: 300px;
+}
+
+.project-container1:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../ProjectImages/STUBHeader.jpg");
+    height: 300px;
+}
+
+.project-container2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../ProjectImages/WOVHeader.jpg");
+    height: 300px;
+}
+
+.project-container2:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../ProjectImages/WOVHeader.jpg");
+    height: 300px;
+}
+
+.project-container3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../ProjectImages/VrisingHeader.jpg");
+    height: 300px;
+}
+
+.project-container3:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../ProjectImages/VrisingHeader.jpg");
+    height: 300px;
+}
+
+.Project-Button-Container {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.project-info a{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+/*------Projects ------- */
+.projects h1 {
+    color: rebeccapurple;
+    margin-bottom: 50px;
+}
+
+.small-project {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #e5ddf0;
+
+    transition: 0.2s ease;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.small-project:hover {
+    border-color: rebeccapurple;
+    background-color: whitesmoke;
+}
+
+.small-project img {
+    width: 180px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.small-project-info {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.small-project-info h3 {
+    margin: 0 0 15px 0;
+    color: #222;
+    font-size: 22px;
+}
+
+.small-project-info span {
+    color: rebeccapurple;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.small-project-info a:hover {
+    color: #4B2470;
+}
+
+/*---Project Pages---*/
+
+.project-page {
+    margin: 0;
+    
+}
+
+.project-page h1 {
+    color: rebeccapurple;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-detail h3 {
+    margin: 0;
+    color: rebeccapurple;
+}
+
+.project-detail p {
+    margin: 0;
+    color: #666;
+}
+
+.project-page iframe {
+    display: block;
+    margin: 40px auto;
+    max-width: 100%;
+}
+
+.description {
+    max-width: 800px;
+    margin: 30px auto;
+    color: #666;
+}
+
+.project-page > h3 {
+    margin-top: 40px;
+    color: rebeccapurple;
+    text-align: left;
+}
+
+.project-page > ul {
+    padding-left: 20px;
+    list-style-type:disc;
+    justify-content: left;
+}
+
+
+.project-page > description {
+    padding-left: 100px;
+    justify-content: left;
+}
+
+.project-page img {
+    display: block;
+    margin: 0 auto;
+    width: 560px;
+    height: 315px;
+}
+.project-page a {
+    text-decoration: none;
+    color: rebeccapurple;
+}
+
+.project-page a:hover {
+    color: #4B2470;
+}
+
+.play-now {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.play-now a {
+    text-decoration: none;
+    color: rebeccapurple;
+}
+
+.play-now a:hover {
+    color: #4B2470;
+}
+
+.play-now h3 {
+    margin: 0;
+}
