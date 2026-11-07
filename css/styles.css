@@ -668,12 +668,6 @@ body {
     text-decoration: none;
 }
 
-.project-page .store-links a:first-child {
-    color: white;
-    background-color: var(--accent);
-    border-color: var(--accent);
-}
-
 .project-page .store-links a[href]:hover {
     color: white;
     background-color: var(--accent-dark);
