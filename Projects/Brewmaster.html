@@ -1,5 +1,7 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="utf-8">
     <title>Brewmaster: Beer Brewing Simulator</title>
     <meta name="viewport" content="initial-scale=1, width=device-width">
     <link href="../css/styles.css" rel="stylesheet">
@@ -12,58 +14,75 @@
         <div class="nav-links">
             <a href="../index.html" class="nav-button">Home</a>
             <a class="nav-button" href="../projects.html">Projects</a>
-            <a href="../about.html" class="nav-button">About</a>
         </div>
     </nav>
     <div class="project-page">
-        <h1>Brewmaster: Beer Brewing Simulator</h1>
+        <header class="project-header">
+            <a href="../projects.html" class="back-link">← All projects</a>
+            <h1>Brewmaster: Beer Brewing Simulator</h1>
+        </header>
 
-        <div class="project-detail">
-            <h3>Software used: </h3>
-            <p> Unreal 4, Asana, Steamworks</p>
-        </div>
+        <div class="project-body">
+            <section class="project-facts">
+                <dl>
+                    <div><dt>Role</dt><dd class="role">Programmer</dd></div>
+                    <div><dt>Developer</dt><dd>Auroch Digital</dd></div>
+                    <div><dt>Engine</dt><dd>Unreal 4</dd></div>
+                    <div><dt>Languages</dt><dd>C++</dd></div>
+                </dl>
+                <div class="project-tools">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Visual Studio</li>
+                        <li>Perforce</li>
+                        <li>Asana</li>
+                        <li>Steamworks</li>
+                    </ul>
+                </div>
+            </section>
 
-        <div class="project-detail">
-            <h3>Languages: </h3>
-            <p>C++</p>
-        </div>
+            <div class="project-media">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/OtF5SXvjoIY?si=HGzagE-d-BDnFOSB"
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
 
-        <div class="project-detail">
-            <h3>Developer:</h3>
-            <p>Auroch Digital</p>
-        </div>
+            <section>
+                <h2>Overview</h2>
+                <p>
+                    Brewmaster: Beer Brewing Simulator is a brewing simulation game aimed at beer enthusiasts and fans of cozy games. 
+                    Players brew beer using real-world ingredients and techniques which then can then use to complete brewing jobs and enter competitions to unlock cosmetics, equipment and earn money. 
+                </p>
+                <p>
+                    The goal for Brewmaster was to simulate beer brewing as realistically as possible. I contributed to the development of the brewing simulation, using real-world modelling to simulate how ingredients and the brewing process affects the final beer.
+                    I collaborated closely with the technical artist to develop a system to link live feed data from the brewing simulator into a shader created to reflect how the beer was brewed.
+                    I also created a scalable data-driven jobs and competition system that allowed designers to add new content without code changes, as well as implemeting it's UI in the two in game magazines.
+                    I worked closely with the UI artist to implement a variety of UI including the in-game magazines and the taste card screens that are used to show how a beer is scored.
+                    I also added the system to choose beer bottles and glass types to display the created beer. I also assisted with the deployment of builds through Steamworks.
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/OtF5SXvjoIY?si=HGzagE-d-BDnFOSB" 
-                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-        </iframe>
+                    Outside of development, I was involved with the marketing campaign, appearing in a <a href="https://www.youtube.com/watch?v=2CQ1napxn7Y">video</a> and an <a href="https://www.techradar.com/features/beg-all-you-want-these-beer-game-devs-will-not-break-the-laws-of-physics-for-you">TechRadar article </a> and spoke about the game at a Bristol Games Hub meetup.
+                </p>
+            </section>
 
-        <p>
-           Brewmaster: Beer Brewing Simulator is a game aimed at beer enthusiast and cozy gamers.
-        </p>
+            <section>
+                <h2>Contributions</h2>
+                <ul class="contributions">
+                    <li>Built a system to feed live brewing simulation data into a liquid shader</li>
+                    <li>Created a scalable, data-driven jobs and competition system</li>
+                    <li>Close collaboration with the UI team to create responsive and interactive UI</li>
+                </ul>
+            </section>
 
-        <p>
-            The aim for Brewmaster was to be as realistic of a beer brewing as possible, I contributed to the development of the simulation.
-            I collaborated closely with the artist to develop a system to feed the brewing simulator data into the liquid shader to create a variety of different effects from the data fed in.
-            I worked on creating a scalable and reusable Jobs and Competition system, including adding in UI for them that is shown in the two in game magazines that would allow design to just add data to create new jobs and competitions.
-            Working on hooking up a variety of UI and working closely with the UI artist to make the taste card screens that are used to portray the scoring of the beer as well as the in game magazines look and feel real.
-            I also added the system to choose beer bottles and glass types to display it in. I also assisted with the deployment of builds on the steam backend.  
-            I also got involved with the marketing campaign, appearing in a <a href= "https://www.youtube.com/watch?v=2CQ1napxn7Y" >video</a> and an <a href="https://www.techradar.com/features/beg-all-you-want-these-beer-game-devs-will-not-break-the-laws-of-physics-for-you">article </a> as well a speaking in person at a Bristol Games Hub meetup.
-        </p>
-
-        <h3>Contributions</h3>
-        <ul>
-            <li>Close collaboration with the artists to create stunning visuals</li>
-            <li>Create a scalable and reusable Jobs and Competition system</li>
-            <li>Close collaboration with the UI team to create resposive and interactive UI</li>
-        </ul>
-
-        <div class="play-now">
-            <h3>Play Now On:</h3>
-            <a href="https://store.steampowered.com/app/1569200/Brewmaster_Beer_Brewing_Simulator/">Steam</a>
-            <a href ="https://store.playstation.com/en-gb/concept/10003003">PS4 | PS5</a>
-            <a href = "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Brewmaster-Beer-Brewing-Simulator-2268710.html?srsltid=AU7gw4XSYMnyJ0isK02Smu2hC4JTsWedMGcf1iB3dWkbox5Q7bhbJl5D">Switch</a>
-            <a href = "https://www.xbox.com/en-GB/games/store/brewmaster-beer-brewing-simulator/9n4b8bm1j3dt">Xbox one & Xbox X|S</a>
+            <div class="play-now">
+                <h3>Play now on</h3>
+                <div class="store-links">
+                    <a href="https://store.steampowered.com/app/1569200/Brewmaster_Beer_Brewing_Simulator/">Steam</a>
+                    <a href="https://store.playstation.com/en-gb/concept/10003003">PS4 and PS5</a>
+                    <a href="https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Brewmaster-Beer-Brewing-Simulator-2268710.html">Switch</a>
+                    <a href="https://www.xbox.com/en-GB/games/store/brewmaster-beer-brewing-simulator/9n4b8bm1j3dt">Xbox One and Xbox Series X|S</a>
+                </div>
+            </div>
         </div>
     </div>
 </body>
