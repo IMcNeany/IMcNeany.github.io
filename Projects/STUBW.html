@@ -1,6 +1,8 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>tarship Troopers: Ultimate Bug War!</title>
+    <meta charset="utf-8">
+    <title>Starship Troopers: Ultimate Bug War!</title>
     <meta name="viewport" content="initial-scale=1, width=device-width">
     <link href="../css/styles.css" rel="stylesheet">
 </head>
@@ -12,56 +14,77 @@
         <div class="nav-links">
             <a href="../index.html" class="nav-button">Home</a>
             <a class="nav-button" href="../projects.html">Projects</a>
-            <a href="../about.html" class="nav-button">About</a>
         </div>
     </nav>
     <div class="project-page">
-        <h1>Starship Troopers: Ultimate Bug War!</h1>
+        <header class="project-header">
+            <a href="../projects.html" class="back-link">← All projects</a>
+            <h1>Starship Troopers: Ultimate Bug War!</h1>
+        </header>
 
-        <div class="project-detail">
-            <h3>Software used: </h3>
-            <p> Unreal 5, Visual Studio, PS5 Developer Tools, Xbox Manager, PIX, Perforce, Asana, Notion, Confluence</p>
-        </div>
+        <div class="project-body">
+            <section class="project-facts">
+                <dl>
+                    <div><dt>Role</dt><dd class="role">Programmer</dd></div>
+                    <div><dt>Developer</dt><dd>Auroch Digital</dd></div>
+                    <div><dt>Engine</dt><dd>Unreal 5</dd></div>
+                    <div><dt>Languages</dt><dd>C++, Python</dd></div>
+                </dl>
+                <div class="project-tools">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Visual Studio</li>
+                        <li>PS5 Developer Tools</li>
+                        <li>Xbox Manager</li>
+                        <li>PIX</li>
+                        <li>Perforce</li>
+                        <li>Asana</li>
+                        <li>Notion</li>
+                        <li>Confluence</li>
+                    </ul>
+                </div>
+            </section>
 
-        <div class="project-detail">
-            <h3>Languages: </h3>
-            <p> C++,Python</p>
-        </div>
+            <div class="project-media">
+                <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/PpnDqN55nHE?si=JByz1AM2TOft-Aob"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
 
-        <div class="project-detail">
-            <h3>Developer:</h3>
-            <p>Auroch Digital</p>
-        </div>
-        <iframe width="560" height="315"
-                src="https://www.youtube.com/embed/PpnDqN55nHE?si=JByz1AM2TOft-Aob"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-        </iframe>
+            <section>
+                <h2>Overview</h2>
+                <p>
+                    Starship Troopers: Ultimate Bug War! is a retro-style first-person shooter based on the 1997 film Starship Troopers.
+                    The game has a split of human levels (where you fight against bugs) and bug levels (where you fight the humans).
+                </p>
+                <p>
+                    I joined the team with a year of production left and started by building developer tooling using Python with Unreal Editor tools to aid with workflows. I automated sprite importing and setup, added map validations and the creation and setup of placeholder voice lines from dialogue with text-to-speech software.
+                    Towards the end of the project the focus shifted towards stability and optimisation.
+                    This involved profiling the game on different platforms, identifying CPU and GPU bottlenecks in general gameplay and any intensive parts of levels and then implementing fixes to address them.
+                </p>
+            </section>
 
-        <p>
-            Based off the 1997 film Starship Troopers, Starship Troopers: Ultimate Bug War! is a first person shooter. The game has a split of human levels (where you fight against bugs) and bug levels (where you fight the humans).
-        </p>
+            <section>
+                <h2>Contributions</h2>
+                <ul class="contributions">
+                    <li>Created Python editor tools in Unreal</li>
+                    <li>Diagnosed and fixed defects through to launch</li>
+                    <li>Profiled CPU and GPU performance on all platforms and added optimisations</li>
+                </ul>
+            </section>
 
-        <p>
-            I join the team with a year left of production, which I jumped in making tooling to assist with auto importing of sprites including setup, map checking and converting voice lines to speech with auto import and setup.
-            Towards the end of the project the focus changed towards game stablility and optimisation, which was tackled on a variery of different fronts with profiling each platform and identifying bottlenecks within the GPU and CPU in general gameplay as well as any instesive levels.
-            Once the bottlenecks had been identified steps were made to reduce the bottlenecks.
-        </p>
-
-        <h3>Contributions</h3>
-        <ul>
-            <li>Developed dev tools with Python and intergrated as editor tools using Unreal's Python support</li>
-            <li>Diagnosed and fixed defects using debugging techniques</li>
-            <li>Optimisations on all platforms using GPU and CPU profiling</li>
-        </ul>
-
-        <div class="play-now">
-            <h3>Play Now On:</h3>
-            <a href="https://store.steampowered.com/app/2321780/Starship_Troopers_Ultimate_Bug_War/">Steam</a>
-            <a href="https://www.gog.com/en/game/starship_troopers_ultimate_bug_war"> GOG</a>
-            <a href="https://store.playstation.com/en-gb/concept/10016557/">PS5</a>
-            <a href="https://www.xbox.com/en-GB/games/store/starship-troopers-ultimate-bug-war/9p7rw7v55lf0">Xbox X|S</a>
+            <div class="play-now">
+                <h3>Play now on</h3>
+                <div class="store-links">
+                    <a href="https://store.steampowered.com/app/2321780/Starship_Troopers_Ultimate_Bug_War/">Steam</a>
+                    <a href="https://www.gog.com/en/game/starship_troopers_ultimate_bug_war">GOG</a>
+                    <a href="https://store.playstation.com/en-gb/concept/10016557/">PS5</a>
+                    <a href="https://www.xbox.com/en-GB/games/store/starship-troopers-ultimate-bug-war/9p7rw7v55lf0">Xbox Series X|S</a>
+                </div>
+            </div>
         </div>
     </div>
 </body>
