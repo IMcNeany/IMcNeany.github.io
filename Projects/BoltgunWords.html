@@ -1,5 +1,7 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="utf-8">
     <title>Warhammer 40,000: Boltgun - Words of Vengeance</title>
     <meta name="viewport" content="initial-scale=1, width=device-width">
     <link href="../css/styles.css" rel="stylesheet">
@@ -12,49 +14,65 @@
         <div class="nav-links">
             <a href="../index.html" class="nav-button">Home</a>
             <a class="nav-button" href="../projects.html">Projects</a>
-            <a href="../about.html" class="nav-button">About</a>
         </div>
     </nav>
     <div class="project-page">
-        <h1>Warhammer 40,000: Boltgun - Words of Vengeance</h1>
+        <header class="project-header">
+            <a href="../projects.html" class="back-link">← All projects</a>
+            <h1>Warhammer 40,000: Boltgun - Words of Vengeance</h1>
+        </header>
 
-        <div class="project-detail">
-            <h3>Software used: </h3>
-            <p> Unreal 4, Asana </p>
-        </div>
+        <div class="project-body">
+            <section class="project-facts">
+                <dl>
+                    <div><dt>Role</dt><dd class="role">Programmer</dd></div>
+                    <div><dt>Developer</dt><dd>Auroch Digital</dd></div>
+                    <div><dt>Engine</dt><dd>Unreal 4</dd></div>
+                    <div><dt>Languages</dt><dd>C++</dd></div>
+                </dl>
+                <div class="project-tools">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Perforce</li>
+                        <li>Visual Studio</li>
+                        <li>Asana</li>
+                    </ul>
+                </div>
+            </section>
 
-        <div class="project-detail">
-            <h3>Languages: </h3>
-            <p>C++</p>
-        </div>
+            <div class="project-media">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7XX9BjgW6Ak?si=yhFn__DfrV8zweG9" title="YouTube video player"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
 
-        <div class="project-detail">
-            <h3>Developer:</h3>
-            <p>Auroch Digital</p>
-        </div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/7XX9BjgW6Ak?si=yhFn__DfrV8zweG9" title="YouTube video player" 
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            <section>
+                <h2>Overview</h2>
+                <p>
+                    Warhammer 40,000: Boltgun - Words of Vengeance is a fast-paced typing game spin-off of the retro FPS Warhammer 40,000: Boltgun. 
+                    Players fight their way through hordes of enemies by typing words to shoot them.
+                </p>
+                <p>
+                    I prototyped and implemented the first iteration of the game's core typing mechanic including, handling certain input behaviour such as ignoring keys that don't count towards words e.g. the Space key.
+                    I then integrated the typing mechanic with the enemy damage system and the UI to create the core gameplay loop and give players the immediate feedback on each keystroke.
+                </p>
+            </section>
 
-        </iframe>
+            <section>
+                <h2>Contributions</h2>
+                <ul class="contributions">
+                    <li>Prototyped the core typing mechanic</li>
+                    <li>Integrated typing with the enemy damage and UI</li>
+                </ul>
+            </section>
 
-        <p>
-            Warhammer 40,000: Boltgun - Words of Vengeance is a fast paced typing game set in the game Warhammer 40,000: Boltgun. You deal damage to the enemies by typing. 
-        </p>
-
-        <p>
-            I contributed to the development of the game by prototyping and implementing the first iteration of the typing mechanic. This included handling certain input behaviour such as ignoring non-character input e.g. the Space key.
-            I then integrated the typing mechanics with the enemy damage system and the user Interface, to create a gameplay loop and recieve feedback from the input.
-        </p>
-
-        <h3>Contributions</h3>
-        <ul>
-            <li>Prototyping the typing mechanic</li>
-        </ul>
-
-        <div class="play-now">
-            <h3>Play Now On:</h3>
-            <a href="https://store.steampowered.com/app/3533730/Warhammer_40000_Boltgun__Words_of_Vengeance/">Steam</a>
+            <div class="play-now">
+                <h3>Play now on</h3>
+                <div class="store-links">
+                    <a href="https://store.steampowered.com/app/3533730/Warhammer_40000_Boltgun__Words_of_Vengeance/">Steam</a>
+                </div>
+            </div>
         </div>
     </div>
 </body>
